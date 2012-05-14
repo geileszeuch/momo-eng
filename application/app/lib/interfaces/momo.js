@@ -49,7 +49,7 @@ interfaces.Momo = function() {
 		return this.postWithoutAuth('/register/resend_verifycode.json', user, callbacks);
     };
 
-    //完善个人信息
+    //完善个人信息 (Edit Personal Information)
     this.postUserPersonal = function(user, callbacks) {
 		return this.post('/user/personal.json', user, callbacks);
     };
